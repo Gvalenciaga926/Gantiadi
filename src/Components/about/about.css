@@ -1,0 +1,39 @@
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-irubaqidze/css/bpg-irubaqidze.min.css");
+
+
+.aboutus{
+    width: 1000px;
+    margin: 200px auto;
+    display: flex;
+    gap: 80px;
+}
+.aboutus img{
+    width: 400px;
+    border-radius: 50px;
+}
+.descr {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: -10px;
+}
+
+.aboutus h2{
+    font-size: 60px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+}
+
+.aboutus h2 span{
+    font-size: 60px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    color: #33cccc;
+}
+
+.aboutus p {
+    text-indent: 10px;
+    font-family: "BPG Irubaqidze", sans-serif;
+    font-size: 20px;
+    margin-top: -25px;
+    font-weight: 600;
+}

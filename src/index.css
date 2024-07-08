@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif Georgian", serif;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+}
+
+.btn {
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0; 
+    transition: 0.2s;
+}
+
+.btn:hover {
+    border-inline: 0.1px solid white;
+    background: transparent;
+    color: white;
+}
+

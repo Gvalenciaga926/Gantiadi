@@ -1,0 +1,32 @@
+{   
+    "sliders": [
+        {
+            "src": "https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/438241513_935192665275240_7691321836663323414_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hmz-KX9P-v4Q7kNvgGx1488&_nc_ht=scontent.ftbs5-2.fna&oh=00_AYDoBaSieVm0OsrW1_bnYJ-s13tT-zzEfN7f-Pn2Eq5cpg&oe=668B1BC4",
+            "alt": "campus1"
+        },
+        {
+            "src": "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/428615555_891676516293522_1560260184566111971_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Qr5isASAfp4Q7kNvgE0bkN9&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYDBUhaNDwj2nXQ17w4ut6-bTRFsGW2KijISNgWBdI4cyg&oe=668B0C90",
+            "alt": "campus2"
+        },
+        {
+            "src": "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/398035574_815611153900059_8922598205272469049_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vdroVeXksA8Q7kNvgHDXP3j&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYAX4B1gBzySrRJBaVXpGAVYzAgff0oCMziuKq2lTRuTJA&oe=668B1080",
+            "alt": "campus3"
+        },
+        {
+            "src": "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/393731385_806310411496800_8844234729272249981_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=mnOMYf0zHOIQ7kNvgF2kcph&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYCki_wzl0v_DD-r0NmTA94RscwNa9QopC6GAsBYljX7NQ&oe=668B066E",
+            "alt": "campus4"
+        },
+        {
+            "src": "https://scontent.ftbs5-2.fna.fbcdn.net/v/t39.30808-6/380888341_787980753329766_1514704872051653205_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pE6mJAhgy3oQ7kNvgHIloBz&_nc_ht=scontent.ftbs5-2.fna&oh=00_AYAuCFFAJ8-2HdSsC1JwEmIm5MtioOai5V8vah7dCnijiw&oe=668B0F3F",
+            "alt": "campus5"
+        },
+        {
+            "src": "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/337411995_1309862083203654_467698534029388264_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8iLpterv1REQ7kNvgGhTKP6&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYC4rqi62ld8Aybflj80LmAjjDLcHmShP_xJvdrgUZN6vA&oe=668B063E",
+            "alt": "campus6"
+        },
+        {
+            "src": "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/328253919_917166863064218_7870207121177289671_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MDMvTQOKO9AQ7kNvgHV6Tm-&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYDLchSu1DeDOnbKMZiSG13TR2yEhTAACahyzbD1r60QEw&oe=668B0DBD",
+            "alt": "campus7"
+        }
+    ]
+}

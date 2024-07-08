@@ -1,0 +1,29 @@
+@import url("//cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+
+.bage{
+    display: flex;
+    background-color: hsl(180, 60%, 50%);
+    align-items: center;
+    width: 70%;
+    color: white;
+    margin-left: 456.1px;
+    padding: 30px;
+    gap: 20px;
+    -webkit-border-top-left-radius: 500px;
+    -webkit-border-bottom-left-radius: 500px;
+    -moz-border-radius-topleft: 500px;
+    -moz-border-radius-bottomleft: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+
+.bage p{
+    font-family: "ArchyEDT-Bold", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.sale{
+    color: red;
+    font-weight: 700;
+}
