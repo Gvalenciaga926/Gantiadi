@@ -7,6 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .program img{
@@ -206,5 +208,222 @@
 .closebtn4{
     margin-top: 157px;
 }
+
+/* ----------- MEIDA ---------- */
+
+@media screen and (max-width: 1286px) {
+    .programs{
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 1073px) {
+    .programs{
+        gap: 100px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .programs{
+        row-gap: 100px;
+    }
+};
+
+
+@media screen and (max-width: 816px) {
+    .programs{
+        gap: 60px;
+        row-gap: 120px;
+        margin-bottom: 150px;
+    }
+    .program{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+        height: 270px;
+        border-radius: 50px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: 0.5s;
+    }
+    
+    .program:hover{
+        width: 200px;
+        height: 270px;
+    }
+    .program3 h3{
+        margin-top: 14px;
+    }
+    .program3 img{
+        margin-top: 5px;
+    }
+    
+    .cardbtn{
+        background: #33cccc;
+        color:  white;
+        padding: 8px 15px;
+        font-size: 14px;
+        font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+        font-weight: bold;
+        border-radius: 15px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        margin-top: 15px; 
+    }
+    
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        gap: 10px;
+        margin: 70px auto;
+    }
+    .title h3{
+        font-size: 20px;
+        color: #33cccc;
+    }
+    .title h2{
+        font-size: 25px;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card h3{
+        font-size: 23px;
+    }
+    .card-back{
+        background-color: white;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 370px;
+        border-radius: 50px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: relative;
+    }
+    
+    .smallimg {
+        max-width: 30px;
+        opacity: 0.5;
+    }
+    .smalljudo{
+        position: absolute;
+        bottom: 250px;
+        right: 20px;
+        max-width: 60px;
+        transform: rotate(350deg);
+    }
+    .smallfight{
+        position: absolute;
+        bottom: 175px;
+        right: 120px;
+        max-width: 40px;
+    }
+    .smallchess{
+        position: absolute;
+        bottom: 100px;
+        right: 10px;
+        max-width: 60px;
+        transform: rotate(10deg);
+    }
+    .smallping{
+        position: absolute;
+        bottom: 300px;
+        right: 240px;
+        max-width: 40px;
+    }
+    .smalldance{
+        position: absolute;
+        bottom: 250px;
+        right: 20px;
+        max-width: 100px;
+        opacity: 0.3;
+    }
+    .smallsculpt{
+        position: absolute;
+        bottom: 60px;
+        right: 150px;
+        max-width: 120px;
+        opacity: 0.3;
+    }
+    .smallpaint{
+        position: absolute;
+        bottom: 150px;
+        right: 50px;
+        max-width: 50px;
+    }
+    .smallruli{
+        position: absolute;
+        bottom: 280px;
+        right: 230px;
+        max-width: 60px;
+
+    }
+    .smallmilc{
+        position: absolute;
+        bottom: 40px;
+        right: 200px;
+        max-width: 60px;
+    }
+    .smallprava{
+        position: absolute;
+        bottom: 60px;
+        right: -20px;
+        max-width: 200px;
+        opacity: 0.3;
+    }
+    .smallhands{
+        position: absolute;
+        max-width: 150px;
+        opacity: 0.5;
+        bottom:70px;
+    }
+    .card-back ul li h2{
+        font-size: 20px;
+    }
+    .card-back h3{
+        color: #33cccc;
+        font-size: 25px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+    .card-back ul{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .closebtn{
+        background-color: #33cccc;
+        padding: 8px 30px;
+        border-radius: 100px;
+        border: none;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+    }
+    .closebtn2{
+        margin-top: 75px;
+    }
+    .card3 h3{
+        max-width: 200px;
+    }
+    .card3-back ul li h2 {
+        font-size: 20px;
+    }
+    .closebtn3{
+        margin-top: 64px;
+    }
+    .closebtn4{
+        margin-top: 157px;
+    }
+    
+};
 
 

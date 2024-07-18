@@ -37,3 +37,150 @@
     margin-top: -25px;
     font-weight: 600;
 }
+
+/* -------------- MEDIA ----------- */
+
+@media screen and (max-width: 1024px) { 
+    .aboutus{
+        width: 800px;
+        margin: 100px auto;
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutus img{
+        width: 250px;
+        border-radius: 30px;
+    }
+    .aboutus h2{
+        font-size: 40px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+    }
+    .aboutus h2 span{
+        font-size: 40px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+        color: #33cccc;
+    }
+    
+    .aboutus p {
+        text-indent: 10px;
+        font-family: "BPG Irubaqidze", sans-serif;
+        font-size: 17px;
+        margin-top: -25px;
+        font-weight: 600;
+    }
+};
+
+@media screen and (max-width: 817px) {
+    .aboutus{
+        width: 600px;
+        margin: 100px auto;
+        display: flex;
+        gap: 40px;
+    }
+    .aboutus img{
+        width: 200px;
+        height: 350px;
+        border-radius: 30px;
+    }
+    .aboutus h2{
+        font-size: 20px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+    }
+    .aboutus h2 span{
+        font-size: 20px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+        color: #33cccc;
+    }
+    
+    .aboutus p {
+        text-indent: 10px;
+        font-family: "BPG Irubaqidze", sans-serif;
+        font-size: 16px;
+        margin-top: -25px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 617px) {
+    .aboutus{
+        width: 350px;
+        margin: 100px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background-image: url('../../assets/about.jpg');
+        background-size: cover;
+        padding: 30px;
+        border-radius: 40px;
+    }
+    .descr{
+        border-radius: 40px;
+        padding: 10px;
+        backdrop-filter: blur(5px);
+    }
+    .aboutus img{
+       display: none;
+    }
+    .aboutus h2{
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+    }
+    .aboutus h2 span{
+        font-size: 20px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+        color: #33cccc;
+    }
+    
+    .aboutus p {
+        text-indent: 10px;
+        font-family: "BPG Irubaqidze", sans-serif;
+        font-size: 16px;
+        margin-top: -25px;
+        font-weight: 400;
+        color: white;
+    }
+}
+@media screen and (max-width: 367px) {
+    .aboutus{
+        width: 300px;
+        margin: 100px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background-image: url('../../assets/about.jpg');
+        background-size: cover;
+        padding: 30px;
+        border-radius: 40px;
+    }
+    .descr{
+        border-radius: 20px;
+        padding: 0px;
+        backdrop-filter: blur(5px);
+    }
+    .aboutus img{
+       display: none;
+    }
+    .aboutus h2{
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+    }
+    .aboutus h2 span{
+        font-size: 20px;
+        font-family: "ArchyEDT-Bold", sans-serif;
+        color: #33cccc;
+    }
+    
+    .aboutus p {
+        text-indent: 10px;
+        font-family: "BPG Irubaqidze", sans-serif;
+        font-size: 16px;
+        margin-top: -25px;
+        font-weight: 400;
+        color: white;
+    }
+}

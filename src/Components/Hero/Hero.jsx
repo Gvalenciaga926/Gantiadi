@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="h2"><h2>თაობა</h2>
             <h2>საქართველოა!</h2></div>
           </div>
-            <button className='btn btn2'>გაიგე მეტი</button>
+            <button className='btn btn2'><p>გაიგე მეტი</p></button>
         </div>
     </div>
   )

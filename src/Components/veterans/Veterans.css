@@ -4,9 +4,9 @@
     display: flex;
     background-color: hsl(180, 60%, 50%);
     align-items: center;
-    width: 70%;
+    width: 100%;
     color: white;
-    margin-left: 456.1px;
+    right: 0;
     padding: 30px;
     gap: 20px;
     -webkit-border-top-left-radius: 500px;
@@ -26,4 +26,29 @@
 .sale{
     color: red;
     font-weight: 700;
+}
+
+/* -------------- MEDIA ----------- */
+
+@media screen and (max-width:1024px) { 
+    .bage p{
+        font-family: "ArchyEDT-Bold", sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:817px){
+    .bage img{
+        width: 150px;
+    }
+}
+@media screen and (max-width:650px){
+    .bage{
+        border-radius: 0;
+        flex-direction: column;
+    }
+    .bage img{
+        width: 150px;
+    }
 }

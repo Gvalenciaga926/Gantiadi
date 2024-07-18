@@ -50,3 +50,25 @@
 .slide-hidden{
     display: none;
 }
+
+/* --------------- MEDIA ----------- */
+
+@media screen and (max-width: 1024px){ 
+    .carousel h2{
+        font-size: 50px;
+    }
+    .slide{
+        height: 60%;
+    }
+}
+@media screen and (max-width: 816px){ 
+    .carousel h2{
+        font-size: 40px;
+    }
+    .slide{
+        height: 45%;
+    }
+    .carousel{
+        
+    }
+}
